@@ -23,3 +23,6 @@ $SwaggerGenerator = [SwaggerGenerator]::new("path/to/output/folder", "https://ur
 // Run generator
 $SwaggerGenerator.Generate();
  ```
+ ## Example
+ 
+You can find a pre-build execution script names `ExampleExecution.ps1`. In this script you will only need to change the path used to include the `SwaggerClientGenerator.ps1` script because I couldn't be bother to findout how to include a script through a relative path.
