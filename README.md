@@ -15,6 +15,8 @@ Running this tool will create a complete project, `.csproj` included.
 
 ## Usage
 
+To change the name of the generated project, update the `config.json` file.
+
 ``` Powershell
 // Include generator class
 . "absolute/path/to/SwaggerClientGenerator.ps1"
